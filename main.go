@@ -1,9 +1,7 @@
 package main
 
-import "fmt"
-
-const unused = `unusedstr`
+import "log"
 
 func main() {
-	fmt.Println("Hello world")
+	log.Println("Hello world")
 }

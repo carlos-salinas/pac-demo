@@ -82,6 +82,7 @@ spec:
       secret:
         secretName: "{{ git_auth_secret }}"
 
-  podTemplate:
-    securityContext:
-      fsGroup: 65532
+  taskRunTemplate:
+    podTemplate:
+      securityContext:
+        fsGroup: 0
